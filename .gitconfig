@@ -1,0 +1,26 @@
+[user]
+	name = Mads Mobæk
+	email = mads86@gmail.com
+[color]
+	ui = auto
+	diff = auto
+[core]
+	autocrlf = false
+	filemode = false
+	excludesfile = ~/.gitignore_global
+[log]
+	date = iso
+[alias]
+	unstage = reset HEAD --
+	s = status -sb
+	ci = commit
+	co = checkout
+	pu = push origin master
+	up = pull --rebase
+	l  = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen%cr%Creset' -n 15
+	ll = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen%cr%Creset'
+	lg = log --pretty='tformat:%Cred%h%Creset %C(yellow)%an%Creset (%Cgreen%ar%Creset) %s'
+	rank = shortlog -s -n --no-merges
+	w = whatchanged --oneline
+	c = commit -m
+	ca = commit -am
