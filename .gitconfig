@@ -12,6 +12,7 @@
 	date = iso
 [alias]
 	unstage = reset HEAD --
+	discard = reset --hard HEAD
 	s = status -sb
 	ci = commit
 	co = checkout
